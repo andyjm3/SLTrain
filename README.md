@@ -14,4 +14,9 @@ Below, we show how the learned weights L + S enlarges the spectrum. In particula
 <img src="https://github.com/andyjm3/SLTrain/blob/main/figures/SLTrain_fig2.png?raw=true" alt="Zoomed view" width="450" height="400">
 
 
+## Results
+SLtrain offers a good trade-off between perplexity, param, and memory requirements.
 
+<img src="https://github.com/andyjm3/SLTrain/blob/main/figures/SLTrain_fig3.png?raw=true" alt="Perp, param, memory trade-off">
+
+<img src="https://github.com/andyjm3/SLTrain/blob/main/figures/SLTrain_fig4.png?raw=true" alt="7B memory saving">
