@@ -8,7 +8,7 @@ torchrun --standalone --nproc_per_node 1 torchrun_main.py \
     --batch_size 256 \
     --total_batch_size 512 \
     --num_training_steps 22000 \
-    --warmup_steps 2000 \
+    --warmup_steps 2200 \
     --weight_decay 0 \
     --dtype bfloat16 \
     --eval_every 1000 \
