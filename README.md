@@ -16,9 +16,11 @@ Below, we show how the learned weights L + S enlarges the spectrum. In particula
 
 <img src="https://github.com/andyjm3/SLTrain/blob/main/figures/SLTrain_fig2.png?raw=true" alt="Zoomed view" width="450" height="400">
 
+## Results
 
+<img src="https://github.com/andyjm3/SLTrain/blob/main/figures/sltrain_result_all.png?raw=true" alt="Result Comparisons" width="500" height="500">
 
-
+<img src="https://github.com/andyjm3/SLTrain/blob/main/figures/sltrain_result_memory.png?raw=true" alt="SlTrain Memory" width="500" height="500">
 
 ## Installation
 
