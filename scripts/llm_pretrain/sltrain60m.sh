@@ -1,0 +1,15 @@
+torchrun --standalone --nproc_per_node 1 torchrun_main.py \
+    --model_config configs/llama_60m.json \
+    --lr 0.003 \
+    --peft_model sltrain\
+    --optimizer adamw \
+    --rank 128 \
+    --sp_ratio 0.03 \
+    --batch_size 256 \
+    --total_batch_size 512 \
+    --num_training_steps 11000 \
+    --warmup_steps 1100 \
+    --weight_decay 0 \
+    --dtype bfloat16 \
+    --eval_every 1000 \
+    --lora_alpha 32 

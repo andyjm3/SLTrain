@@ -1,0 +1,17 @@
+torchrun --standalone --nnodes 1 --nproc_per_node 8 torchrun_main.py \
+    --model_config configs/llama_7b.json \
+    --lr 0.003 \
+    --peft_model sltrain\
+    --optimizer adam8bit \
+    --rank 1024 \
+    --sp_ratio 0.05 \
+    --batch_size 8 \
+    --total_batch_size 512 \
+    --num_training_steps 150000 \
+    --warmup_steps 15000 \
+    --weight_decay 0 \
+    --grad_clipping 1.0 \
+    --dtype bfloat16 \
+    --eval_every 1000 \
+    --save_every 500 \
+    --lora_alpha 8 \
