@@ -1,5 +1,5 @@
 # SLTrain
-A repository containing beta implementation for *SLTrain: a sparse plus low-rank approach for parameter and memory efficient pretraining*, **which has been accepted to NeurIPS 2024**. Preprint available on http://arxiv.org/abs/2406.02214.
+A repository containing beta implementation for *SLTrain: a sparse plus low-rank approach for parameter and memory efficient pretraining*, which has been accepted to NeurIPS 2024. Preprint available on http://arxiv.org/abs/2406.02214.
 
 ## Modeling for pretraining
 The main idea is to re-parameterize linear layer with low-rank and sparse factors for improved parameter and memory efficiency.
