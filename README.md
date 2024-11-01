@@ -54,10 +54,10 @@ torchrun --standalone --nproc_per_node 1 torchrun_main.py \
 
 ## Citation
 ```bibtex
-@article{han2024sltrain,
+@inproceedings{han2024sltrain,
   title={{SLTrain}: a sparse plus low-rank approach for parameter and memory efficient pretraining},
   author={Han, Andi and Li, Jiaxiang and Huang, Wei and Hong, Mingyi and Takeda, Akiko and Jawanpuria, Pratik and Mishra, Bamdev},
-  journal={arXiv preprint arXiv:2406.02214},
+  booktitle={NeurIPS},
   year={2024}
 }
 ```
