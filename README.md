@@ -57,7 +57,8 @@ torchrun --standalone --nproc_per_node 1 torchrun_main.py \
 @inproceedings{han2024sltrain,
   title={{SLTrain}: a sparse plus low-rank approach for parameter and memory efficient pretraining},
   author={Han, Andi and Li, Jiaxiang and Huang, Wei and Hong, Mingyi and Takeda, Akiko and Jawanpuria, Pratik and Mishra, Bamdev},
-  booktitle={NeurIPS},
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume = {37},
   year={2024}
 }
 ```
